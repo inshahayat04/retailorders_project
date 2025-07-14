@@ -90,14 +90,22 @@ Q5: Sub-Category with Highest Growth (2022 vs 2023)
   Run the queries inside any SQL interface (SSMS, MySQL Workbench, DBeaver)
 
 ## Key Insights
+
   Certain products consistently generate high revenue across all regions.
+  
   Sales trends show noticeable seasonal patterns, especially around peak shopping months.
+  
   Some sub-categories experienced exponential growth, indicating shifting customer preferences.
   
+  
 ## Future Enhancements
+
   Add dashboards using Power BI or Tableau.
+
   Include automated email reports using Python.
+  
   Build an API to serve analytics as a service.
+
 
 ## License
   This project is licensed under the MIT License.
