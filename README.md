@@ -13,10 +13,13 @@ The analysis helps stakeholders identify high-performing products, seasonal tren
 | VS Code            | Development environment             |
 
 ## Project Structure
-├── orders.csv            # Original dataset
-├── orders.ipynb          # Jupyter Notebook (Python Analysis)
-├── SQLQuery.sql          # SQL queries for business problem solving
-├── README.md             # Project documentation
+   orders.csv            # Original dataset
+   
+   orders.ipynb          # Jupyter Notebook (Python Analysis)
+   
+   SQLQuery.sql          # SQL queries for business problem solving
+   
+   README.md             # Project documentation
 
 ## Dataset Description
 The dataset includes transactional data from a retail store and contains the following columns:
@@ -25,7 +28,7 @@ The dataset includes transactional data from a retail store and contains the fol
 **Financial data: quantity, discount, sale_price, profit**
 
 ## Work Done
-##Data Processing with Python (orders.ipynb)
+## Data Processing with Python (orders.ipynb)
 1. Data Loading & Inspection
    Loaded data from orders.csv
    Inspected using .info(), .describe(), and .head()
