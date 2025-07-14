@@ -23,9 +23,13 @@ The analysis helps stakeholders identify high-performing products, seasonal tren
 
 ## Dataset Description
 The dataset includes transactional data from a retail store and contains the following columns:
+
 **order_id, order_date, ship_mode, segment, country, city, state, postal_code, region**
+
 **Product information: category, sub_category, product_id**
+
 **Financial data: quantity, discount, sale_price, profit**
+
 
 ## Work Done
 ## Data Processing with Python (orders.ipynb)
