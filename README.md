@@ -29,24 +29,37 @@ The dataset includes transactional data from a retail store and contains the fol
 
 ## Work Done
 ## Data Processing with Python (orders.ipynb)
-1. Data Loading & Inspection
+## 1. Data Loading & Inspection
+   
    Loaded data from orders.csv
+   
    Inspected using .info(), .describe(), and .head()
+   
    Checked for missing values, data types, and duplicates
 
-3. Data Cleaning
+
+## 2. Data Cleaning
+   
    Converted date columns to proper datetime format
+   
    Dropped duplicates and irrelevant columns (if any)
+   
    Handled null values (if present)
 
-5. Feature Engineering
+
+## 3. Feature Engineering
+   
    Extracted year, month, and day from order_date
+   
    Created additional columns like revenue = quantity * sale_price
+   
 
-7. Export for SQL
+## 4. Export for SQL
+   
    Final cleaned dataset was exported or inserted into an SQL database using SQLAlchemy
+   
 
-Business Queries with SQL (SQLQuery.sql)
+## Business Queries with SQL (SQLQuery.sql)
 The SQL file contains several insightful business queries written using T-SQL syntax. Here's what each does:
 
 Q1: Top 10 Highest Revenue Generating Products
