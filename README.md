@@ -63,10 +63,11 @@ The dataset includes transactional data from a retail store and contains the fol
 The SQL file contains several insightful business queries written using T-SQL syntax. Here's what each does:
 
 Q1: Top 10 Highest Revenue Generating Products
-select top 10 product_id, sum(sale_price) as sales
+'''sql select top 10 product_id, sum(sale_price) as sales
 from df_orders
 group by product_id
 order by sales desc;
+''''
 
 Q2: Top 5 Best-Selling Products by Region
 with cte as (
